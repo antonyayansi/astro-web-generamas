@@ -23,6 +23,7 @@ Genera+ es un espacio abierto, activo y en crecimiento. Si quieres aportar o sim
 - **Secretaria:** Ariana Fabiola Molina Loaiza  
 - **Director de Proyectos:** Bruce Saul Barrios Morales  
 - **Tesorera:** Katia Angela Quinta Quispe  
+- **Líder de eventos:** Andrea Alejandra Hermoza Guevara
 - **Director de Relaciones:** Alí Israel Astete Romero  
 - **Director de Comunicación y Marketing:** Jodi Córdova Sucapuca  
 - **Líder en Desarrollo de Software:** Antony Elio Ayansi Huisa  
