@@ -89,7 +89,7 @@ export async function getAllCategories() {
   return allCategories
 }
 
-// 获取所有标签
+// 获取所有Etiquetas
 export async function getAllTags() {
   const newestPosts = await getNewestPosts()
 

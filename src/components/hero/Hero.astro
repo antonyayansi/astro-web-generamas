@@ -1,8 +1,23 @@
 ---
-import { hero, author } from '@/config.json'
+import { hero } from '@/config.json'
 import { SocialList } from './SocialList'
 import Highlight from '@/components/Highlight.astro'
 ---
+
+<style>
+  .rotating {
+    animation: spin 20s linear infinite;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+</style>
 
 <div class="lg:-mt-16 lg:h-dvh lg:min-h-[720px]">
   <div
@@ -16,10 +31,8 @@ import Highlight from '@/components/Highlight.astro'
       <SocialList className="mt-[60px]" client:load />
     </div>
     <div class="mt-20 lg:mt-0">
-      <div
-        class="size-[200px] lg:size-[300px] rounded-md overflow-hidden "
-      >
-        <img class="" src="/img/hero.svg" alt="Site owner avatar" loading="lazy" />
+      <div class="size-[200px] lg:size-[300px] rounded-md">
+        <img class="rotating" src="/img/hero.svg" alt="Site owner avatar" loading="lazy" />
       </div>
     </div>
 
