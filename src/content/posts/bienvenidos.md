@@ -6,9 +6,12 @@ tags: [Genera Más, Capítulo Estudiantil, Universidad Continental]
 category: Bienvenida
 summary: En este primer post, te damos la bienvenida a la web de Genera Más, tu capítulo estudiantil de la Universidad Continental.
 comments: false
+cover: https://yachay.digital/wp-content/uploads/2021/08/Universidad-Continental.png
 ---
 
 ¡Bienvenidos a la nueva web de *Genera Más*! 🚀
+
+![image](https://proctorizer.com/wp-content/uploads/2024/05/universidad-continental-de-peru.jpg)
 
 Nos complace mucho tenerte aquí, en un espacio creado especialmente para estudiantes apasionados por la tecnología, la innovación y el trabajo colaborativo. Este capítulo estudiantil nace con la idea de ser un punto de encuentro para todos los que desean aprender, compartir y desarrollar proyectos tecnológicos juntos.
 
