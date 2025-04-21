@@ -1,18 +1,17 @@
 ---
-title: 朋友们
-description: 我的小伙伴们和一些有趣的站点。
-comments: true
+title: Enlaces de Interés
+description: Sitios recomendados y aliados del Capítulo Estudiantil.
+comments: false
 ---
 
-## 怎么申请友链？
+## ¿Cómo solicitar un enlace?
 
-想要交换友链的小伙伴们，欢迎去本站的 [Github 仓库](https://github.com/lxchapu/astro-gyoza/tree/main/src/content/friends)提交一个 PR。审核通过后，就可以在这里展示啦。
+Si deseas que incluyamos tu sitio web como enlace de interés, por favor dirígete a nuestro [repositorio en GitHub](https://github.com/antonyayansi/astro-web-generamas/tree/main/src/content/friends) y envía un Pull Request (PR). Una vez aprobado, tu sitio aparecerá en esta sección.
 
-请在`/src/content/friends/`Tabla de contenidos下添加一个`<short-name>.yaml`文件，参考格式：
+Por favor, añade un archivo `<nombre-corto>.yaml` en la carpeta `/src/content/friends/` siguiendo este formato:
 
-```yml
-title: 网站名称
-description: 一句话介绍下你的网站或者你自己
-link: 网站地址
-avatar: 头像地址
-```
+```yaml
+title: Nombre del sitio
+description: Breve descripción de tu sitio o de ti mismo
+link: URL del sitio
+avatar: URL del avatar o logo

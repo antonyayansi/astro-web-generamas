@@ -29,7 +29,7 @@ const content = `---
 title: ${title}
 date: ${new Date().toISOString()}
 tags: []
-comments: true
+comments: false
 draft: false
 ---
 `
