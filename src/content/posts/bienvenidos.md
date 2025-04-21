@@ -5,6 +5,7 @@ lastMod: 2025-04-20T10:00:00.000Z
 tags: [Genera Más, Capítulo Estudiantil, Universidad Continental]
 category: Bienvenida
 summary: En este primer post, te damos la bienvenida a la web de Genera Más, tu capítulo estudiantil de la Universidad Continental.
+comments: false
 ---
 
 ¡Bienvenidos a la nueva web de *Genera Más*! 🚀

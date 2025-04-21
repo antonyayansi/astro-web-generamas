@@ -73,8 +73,8 @@ function SearchPanel() {
             />
           </svg>
           <div>
-            <div className="font-semibold mb-1">抱歉</div>
-            <div className="text-sm">该功能基于 pagefind，请在构建后再次尝试。</div>
+          <div className="font-semibold mb-1">Lo sentimos</div>
+          <div className="text-sm">Esta función se basa en pagefind, por favor intenta nuevamente después de compilar.</div>
           </div>
         </div>
       </div>

@@ -4,6 +4,7 @@ date: 2025-04-20
 tags: [Trabajo en Equipo, Tecnología, Productividad]
 category: Tecnología
 summary: Explora cómo la tecnología ha transformado el trabajo en equipo, desde herramientas colaborativas hasta el trabajo remoto.
+comments: false
 ---
 
 En el mundo digital actual, el trabajo en equipo ha experimentado una transformación significativa. Con la aparición de herramientas colaborativas como **Slack**, **Trello** y plataformas de videoconferencia como **Zoom**, los equipos ya no dependen de estar físicamente juntos para colaborar de manera efectiva.

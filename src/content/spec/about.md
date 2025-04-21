@@ -33,10 +33,6 @@ Genera+ es un espacio abierto, activo y en crecimiento. Si quieres aportar o sim
 
 Este capítulo se inspira y apoya en tecnologías y comunidades que nos impulsan a seguir aprendiendo:
 
-- [Astro](https://astro.build/)
-- [React](https://reactjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Framer Motion](https://www.framer.com/motion/)
 - [Jotai](https://jotai.org/)
 
 También agradecemos a la Universidad Continental y a todas las personas que creen en el potencial de los estudiantes.

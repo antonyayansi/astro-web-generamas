@@ -4,6 +4,7 @@ date: 2025-04-20
 tags: [Inteligencia Artificial, Educación, Tecnología]
 category: Educación
 summary: Descubre cómo la inteligencia artificial está transformando la educación, desde tutorías virtuales personalizadas hasta la automatización de tareas.
+comments: false
 ---
 
 La inteligencia artificial (IA) ha comenzado a jugar un papel clave en la educación. Con avances tecnológicos, la IA tiene el potencial de transformar la forma en que los estudiantes aprenden y los maestros enseñan.
