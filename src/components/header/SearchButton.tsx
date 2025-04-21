@@ -116,14 +116,14 @@ function SearchPanel() {
               d="M11 11v2l-5.327 6H11v2H3v-2l5.326-6H3v-2zm10-8v2l-5.327 6H21v2h-8v-2l5.326-6H13V3z"
             />
           </svg>
-          <div>无内容</div>
+          <div>Sin contenido 🍃</div>
         </div>
       </div>
     )
   } else {
     resultList = (
       <>
-        <div className="text-sm px-3 mb-2">找到以下 {results.length} 条结果</div>
+        <div className="text-sm px-3 mb-2">Se encontraron {results.length} resultados</div>
         {results.map((item) => {
           return (
             <a
