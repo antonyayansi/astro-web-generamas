@@ -31,7 +31,7 @@ export function TimelineProgress() {
   return (
     <>
       <p className="mt-4">
-        Hoy es el día número {currentYear} del año <CountUp to={dayOfYear} decimals={0} />
+        Hoy es el día número <CountUp to={dayOfYear} decimals={0} /> del año {currentYear} 
       </p>
       <p className="mt-4">
         Ha transcurrido el <CountUp to={percentOfYear} decimals={5} />% del año
