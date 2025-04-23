@@ -9,7 +9,7 @@ comments: false
 cover: https://yachay.digital/wp-content/uploads/2021/08/Universidad-Continental.png
 ---
 
-¡Bienvenidos a la nueva web de *Genera Más*! 🚀
+¡Bienvenidos a la nueva web de *Genera+*! 🚀
 
 ![image](https://proctorizer.com/wp-content/uploads/2024/05/universidad-continental-de-peru.jpg)
 
@@ -31,4 +31,4 @@ Nos complace mucho tenerte aquí, en un espacio creado especialmente para estudi
 
 ¡Nos vemos en el próximo evento!
 
-Equipo de *Genera Más* 🎓
+Equipo de *Genera+* 🎓
