@@ -1,5 +1,5 @@
 ---
-title: ¡Bienvenidos a la web de Genera Más!
+title: ¡Bienvenidos a la web de Genera+!
 date: 2025-04-18
 lastMod: 2025-04-20T10:00:00.000Z
 tags: [Genera Más, Capítulo Estudiantil, Universidad Continental]
