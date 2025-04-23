@@ -1,4 +1,19 @@
 // Obtener el tiempo relativo entre dos fechas
+const mapMonths:any = {
+  '01': 'Enero',
+  '02': 'Febrero',
+  '03': 'Marzo',
+  '04': 'Abril',
+  '05': 'Mayo',
+  '06': 'Junio',
+  '07': 'Julio',
+  '08': 'Agosto',
+  '09': 'Septiembre',
+  '10': 'Octubre',
+  '11': 'Noviembre',
+  '12': 'Diciembre',
+}
+
 export function getRelativeTime(startDate: Date, endDate = new Date()) {
   const diffSeconds = Math.floor((endDate.getTime() - startDate.getTime()) / 1000)
   if (diffSeconds < 0) {
@@ -29,7 +44,7 @@ export function getFormattedDate(date: Date) {
   const day = date.getDate()
   const week = ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'][date.getDay()]
 
-  return `${year} ${month} de ${day} de ${week}`
+  return `${day} de ${mapMonths[month]} del ${year} de ${week}`
 }
 
 // Rellenar con ceros al principio de un número
@@ -45,7 +60,7 @@ export function getFormattedDateTime(date: Date) {
   const hours = padZero(date.getHours())
   const minutes = padZero(date.getMinutes())
 
-  return `${year} ${month} de ${day} de ${hours}:${minutes}`
+  return `${day} de ${mapMonths[month]} del ${year} a las ${hours}:${minutes}`
 }
 
 // Obtener la diferencia en días entre dos fechas
