@@ -1,17 +1,17 @@
 // Obtener el tiempo relativo entre dos fechas
-const mapMonths:any = {
-  '01': 'Enero',
-  '02': 'Febrero',
-  '03': 'Marzo',
-  '04': 'Abril',
-  '05': 'Mayo',
-  '06': 'Junio',
-  '07': 'Julio',
-  '08': 'Agosto',
-  '09': 'Septiembre',
-  '10': 'Octubre',
-  '11': 'Noviembre',
-  '12': 'Diciembre',
+const mapMonths: any = {
+  1: 'Enero',
+  2: 'Febrero',
+  3: 'Marzo',
+  4: 'Abril',
+  5: 'Mayo',
+  6: 'Junio',
+  7: 'Julio',
+  8: 'Agosto',
+  9: 'Septiembre',
+  10: 'Octubre',
+  11: 'Noviembre',
+  12: 'Diciembre',
 }
 
 export function getRelativeTime(startDate: Date, endDate = new Date()) {
@@ -42,7 +42,9 @@ export function getFormattedDate(date: Date) {
   const year = date.getFullYear() % 100
   const month = date.getMonth() + 1
   const day = date.getDate()
-  const week = ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'][date.getDay()]
+  const week = ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'][
+    date.getDay()
+  ]
 
   return `${day} de ${mapMonths[month]} del ${year} de ${week}`
 }
@@ -55,9 +57,10 @@ function padZero(number: number, len = 2) {
 // Obtener una fecha y hora formateada, formato: 2024 01 01 12:00
 export function getFormattedDateTime(date: Date) {
   const year = date.getFullYear()
-  const month = padZero(date.getMonth() + 1)
-  const day = padZero(date.getDate())
-  const hours = padZero(date.getHours())
+  const month = date.getMonth() + 1
+  console.log(month)
+  const day = date.getDate()
+  const hours = date.getHours()
   const minutes = padZero(date.getMinutes())
 
   return `${day} de ${mapMonths[month]} del ${year} a las ${hours}:${minutes}`
