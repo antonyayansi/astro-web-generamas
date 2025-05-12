@@ -19,15 +19,15 @@
     "description": "Perseverancia y dedicación son la clave del éxito.",
     "socials": [
       {
-        "name": "Github",
+        "name": "Instagram",
         "icon": "icon-instagram",
-        "url": "https://github.com/_dankira_/astro-Genera+",
+        "url": "https://www.instagram.com/generamas/",
         "color": "rgb(24, 23, 23)"
       },
       {
         "name": "Email",
         "icon": "icon-mail",
-        "url": "mailto:soporte@generamas.club",
+        "url": "mailto:support@generamas.club",
         "color": "rgb(212, 70, 56)"
       }
     ],

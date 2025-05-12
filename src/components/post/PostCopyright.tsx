@@ -35,16 +35,13 @@ export function PostCopyright({
       <p>Autor del artículo: {author.name}</p>
       <p>
         <span>Enlace del artículo: {url}</span>
-        <span role="button" className="cursor-pointer select-none" onClick={handleCopyUrl}>
+        <span role="button" className="ml-1 cursor-pointer select-none text-accent" onClick={handleCopyUrl}>
           [Copiar]
         </span>
       </p>
       <p>Última modificación: {lastModStr}</p>
       <hr className="my-3 border-primary" />
       <div>
-        <div className="float-right ml-4 my-2">
-          <AnimatedSignature />
-        </div>
         <p>
           Para reutilización comercial, por favor contacte al administrador del sitio para obtener autorización. Para reutilización no comercial, por favor mencione el origen del artículo y su enlace. Puede copiar y distribuir el trabajo en cualquier medio y de cualquier forma, también puede modificar y crear derivados, pero al distribuir obras derivadas, debe usar la misma licencia.
           <br />

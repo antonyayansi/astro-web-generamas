@@ -2,14 +2,14 @@
 title: ¡Bienvenidos a la web de Genera+!
 date: 2025-04-18
 lastMod: 2025-04-20T10:00:00.000Z
-tags: [Genera Más, Capítulo Estudiantil, Universidad Continental]
+tags: [Genera+, Capítulo Estudiantil, Universidad Continental]
 category: Bienvenida
-summary: En este primer post, te damos la bienvenida a la web de Genera Más, tu capítulo estudiantil de la Universidad Continental.
+summary: En este primer post, te damos la bienvenida a la web de Genera+, tu capítulo estudiantil de la Universidad Continental.
 comments: false
 cover: https://yachay.digital/wp-content/uploads/2021/08/Universidad-Continental.png
 ---
 
-¡Bienvenidos a la nueva web de *Genera+*! 🚀
+¡Bienvenidos a la nueva web de _Genera+_! 🚀
 
 ![image](https://proctorizer.com/wp-content/uploads/2024/05/universidad-continental-de-peru.jpg)
 
@@ -21,7 +21,7 @@ Nos complace mucho tenerte aquí, en un espacio creado especialmente para estudi
 - **Proyectos Colaborativos**: ¿Tienes una idea o proyecto en mente? Aquí podrás conectarte con otros estudiantes que compartan tu visión.
 - **Recursos y Aprendizaje**: Accede a materiales, guías y tutoriales para mejorar tus habilidades tecnológicas.
 
-### ¿Cómo puedes ser parte de Genera Más?
+### ¿Cómo puedes ser parte de Genera+?
 
 1. **Únete a nuestras actividades**: Participa en los eventos que organizamos.
 2. **Comparte tu conocimiento**: Si tienes experiencia en algún tema, no dudes en aportar al grupo.
@@ -31,4 +31,4 @@ Nos complace mucho tenerte aquí, en un espacio creado especialmente para estudi
 
 ¡Nos vemos en el próximo evento!
 
-Equipo de *Genera+* 🎓
+Equipo de _Genera+_ 🎓
