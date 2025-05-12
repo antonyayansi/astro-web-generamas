@@ -1,0 +1,66 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+//rifasdb
+model Usuario {
+  id          String   @id @default(uuid())
+  nombre      String
+  correo      String   @unique
+  password    String   // Hash del password si manejas auth propia
+  rol         Rol      @default(REGISTRADOR)
+  createdAt   DateTime @default(now())
+}
+
+model Participante {
+  id            String   @id @default(uuid())
+  nombre        String
+  celular       String
+  codigo        String   @unique
+  nrc           String
+  comprobante   String   // nombre del archivo o URL
+  registradoPorId String
+  createdAt     DateTime @default(now())
+
+  numeros       NumeroRifa[]
+}
+
+model Rifa {
+  id          String   @id @default(uuid())
+  nombre      String
+  descripcion String
+  precio      Float
+  imagen      String
+  publicada   Boolean  @default(false)
+  createdAt   DateTime @default(now())
+
+  numeros     NumeroRifa[]
+}
+
+model NumeroRifa {
+  id             Int      @id @default(autoincrement())
+  numero         Int
+  reservado      Boolean  @default(false)
+  rifaId         String
+  rifa           Rifa     @relation(fields: [rifaId], references: [id])
+  participanteId String?
+  comprador      Participante? @relation(fields: [participanteId], references: [id])
+}
+
+enum Rol {
+  ADMIN
+  REGISTRADOR
+  LECTOR
+}
+

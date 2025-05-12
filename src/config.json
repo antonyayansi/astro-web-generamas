@@ -80,8 +80,8 @@
       "icon": "icon-ghost"
     },
     {
-      "name": "Enlaces",
-      "link": "/friends",
+      "name": "Extra",
+      "link": "/rifas",
       "icon": "icon-hearts"
     }
   ],
@@ -89,13 +89,13 @@
     "perPage": 10
   },
   "footer": {
-    "startTime": "2024-04-14T00:00:00Z"
+    "startTime": "2025-01-14T00:00:00Z"
   },
   "waline": {
     "serverURL": "https://waline._dankira_.com"
   },
   "sponsor": {
-    "wechat": "https://object._dankira_.com/bed%2F2024%2F0507_6e3e8f73df2d4e6d.webp"
+    "wechat": "https://object._dankira_.com/bed%2F2025%2F0507_6e3e8f73df2d4e6d.webp"
   },
   "analytics": {
     "enable": false,

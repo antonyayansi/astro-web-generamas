@@ -1,0 +1,15 @@
+---
+import PageLayout from "@/layouts/PageLayout.astro";
+import { RifaComponent } from '@/components/rifa/RifaComponent'
+---
+
+<PageLayout title="Rifas">
+    <div class="max-w-[800px] mx-auto px-4 py-16">
+        <header class="space-y-4 mb-8">
+        <h1 class="text-4xl dark:text-white font-bold">Rifas</h1>
+        <p>Rifas para participar y ganar premios increíbles.</p>
+        <hr class="w-[100px] border-primary" />
+        </header>
+        <RifaComponent client:only />
+    </div>
+</PageLayout>
