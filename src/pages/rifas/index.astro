@@ -1,6 +1,6 @@
 ---
 import PageLayout from "@/layouts/PageLayout.astro";
-import { RifaComponent } from '@/components/rifa/RifaComponent'
+import RifaWrapper from "@/components/rifa/RifaWrapper.vue";
 ---
 
 <PageLayout title="Rifas">
@@ -10,6 +10,6 @@ import { RifaComponent } from '@/components/rifa/RifaComponent'
         <p>Rifas para participar y ganar premios increíbles.</p>
         <hr class="w-[100px] border-primary" />
         </header>
-        <RifaComponent client:only />
+        <RifaWrapper client:only="vue" />
     </div>
 </PageLayout>

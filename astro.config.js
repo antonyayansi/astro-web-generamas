@@ -17,6 +17,7 @@ import { site } from './src/config.json'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
 import swup from '@swup/astro'
+import vue from '@astrojs/vue'
 
 // https://astro.build/config
 export default defineConfig({
@@ -31,6 +32,7 @@ export default defineConfig({
       containers: ['main'],
       morph: ['[component-export="Provider"]'],
     }),
+    vue(),
   ],
   markdown: {
     syntaxHighlight: false,

@@ -3,22 +3,6 @@ import { hero } from '@/config.json'
 import { SocialList } from './SocialList'
 import Highlight from '@/components/Highlight.astro'
 ---
-
-<style>
-  .rotating {
-    animation: spin 20s linear infinite;
-  }
-
-  @keyframes spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-</style>
-
 <div class="lg:-mt-16 lg:h-dvh lg:min-h-[720px]">
   <div
     class="relative max-w-[1300px] mx-auto h-full px-4 grid lg:grid-cols-2 items-center justify-items-center"
@@ -32,7 +16,7 @@ import Highlight from '@/components/Highlight.astro'
     </div>
     <div class="mt-20 lg:mt-0">
       <div class="size-[200px] lg:size-[300px] rounded-md">
-        <img class="rotating" src="/img/hero.svg" alt="Site owner avatar" loading="lazy" />
+        <img class="animate-spin [animation-duration:20s]" src="/img/hero.svg" alt="Site owner avatar" loading="lazy" />
       </div>
     </div>
 

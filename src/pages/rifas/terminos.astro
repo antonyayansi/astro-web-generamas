@@ -1,0 +1,62 @@
+---
+import PageLayout from '@/layouts/PageLayout.astro'
+---
+
+<PageLayout title="Términos y Condiciones de la Rifa">
+  <div class="max-w-[800px] mx-auto px-4 py-16">
+    <header class="space-y-4 mb-8">
+      <h1 class="text-3xl font-bold mb-4">Términos y Condiciones de la Rifa</h1>
+    </header>
+
+    <p class="mb-4">
+      Al participar en esta rifa organizada por <strong>Genera+</strong>, capítulo estudiantil de la carrera de Ingeniería de Sistemas, aceptas cumplir íntegramente los siguientes términos y condiciones. Se recomienda leerlos detenidamente antes de registrarse.
+    </p>
+
+    <h2 class="text-2xl font-bold mb-2">1. Organizadores</h2>
+    <p class="mb-4">
+      Esta rifa es organizada por el equipo de <strong>Genera+</strong>, capítulo estudiantil oficial de la carrera de Ingeniería de Sistemas de la Universidad Continental, con el fin de apoyar actividades estudiantiles y fomentar el desarrollo tecnológico.
+    </p>
+
+    <h2 class="text-2xl font-bold mb-2">2. Elegibilidad</h2>
+    <p class="mb-4">
+      Podrán participar todos los estudiantes de la carrera de Ingeniería de Sistemas de la Universidad Continental y personas externas, siempre que hayan registrado correctamente su participación y hayan realizado el pago correspondiente.
+    </p>
+
+    <h2 class="text-2xl font-bold mb-2">3. Registro y Participación</h2>
+    <p class="mb-4">
+      Para participar, es obligatorio completar el formulario de inscripción en la plataforma oficial de Genera+ (<a class="underline text-ellipsis" href="https://generamas.club">https://generamas.club</a>) y adjuntar una captura válida del comprobante de pago o ser registrado directamente por un delegado autorizado o encargado del código.
+    </p>
+    <p class="mb-4">
+      En caso de detectarse múltiples registros con el mismo comprobante de pago, se validará únicamente el primer registro; los registros duplicados serán anulados automáticamente.
+    </p>
+
+    <h2 class="text-2xl font-bold mb-2">4. Premios</h2>
+    <p class="mb-4">
+      Los premios disponibles se detallan en la sección de descripción de la rifa. No se realizarán cambios ni sustituciones una vez asignado el premio. El ganador deberá reclamar su premio en un plazo máximo de 5 días hábiles luego del sorteo.
+    </p>
+
+    <h2 class="text-2xl font-bold mb-2">5. Transparencia del sorteo</h2>
+    <p class="mb-4">
+      El sorteo se realizará de forma 100% transparente mediante un algoritmo de selección aleatoria implementado desde el backend en PHP, utilizando una semilla criptográficamente segura generada con <code>random_int()</code> y <code>hash_hmac('sha256', ...)</code> para garantizar imparcialidad y evitar cualquier tipo de manipulación o falsificación. El código será auditado públicamente y estará disponible para revisión técnica si así se solicita.
+    </p>
+
+    <h2 class="text-2xl font-bold mb-2">6. Devoluciones</h2>
+    <p class="mb-4">
+      No se realizarán reembolsos bajo ninguna circunstancia una vez completado el proceso de registro y confirmado el pago.
+    </p>
+
+    <h2 class="text-2xl font-bold mb-2">7. Responsabilidad</h2>
+    <p class="mb-4">
+      Genera+ no se hace responsable por errores en el registro causados por el usuario, como envíos incompletos, comprobantes inválidos o datos incorrectos. Tampoco será responsable por problemas técnicos fuera de su control.
+    </p>
+
+    <h2 class="text-2xl font-bold mb-2">8. Cambios en los términos</h2>
+    <p class="mb-4">
+      Los organizadores se reservan el derecho de modificar los términos y condiciones en cualquier momento. Cualquier cambio será informado oportunamente a través de los canales oficiales.
+    </p>
+    <h2 class="text-2xl font-bold mb-2">9. Aceptación de los términos</h2>
+    <p class="mb-4">
+      Al registrarte y participar en esta rifa, aceptas plenamente los presentes términos y condiciones. Si no estás de acuerdo con alguno de los puntos mencionados, te pedimos no continuar con el proceso de inscripción.
+    </p>
+  </div>
+</PageLayout>
